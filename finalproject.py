@@ -34,7 +34,7 @@ def TimeStamp(url):
 		newURL = Links(url=url,short_URL=sURL)
 		session.add(newURL)
 		session.commit()
-		return sURL
+		return jsonify({"URL":url,"Short URL":sURL})
 	else:
 		return jsonify({"URL":url,"Short URL":"Not a valid url"})
 	
