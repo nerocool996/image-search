@@ -12,7 +12,7 @@ import httplib, urllib, base64,json,datetime
 
 headers = {
     # Request headers
-    'Ocp-Apim-Subscription-Key': '3f7ef1515220435eaa80d7da5e1b5239',
+    'Ocp-Apim-Subscription-Key': 'Your API Key',
 }
 
 engine = create_engine('postgres://jmmodrydkyhole:HOD93bvzChb_zpa30S1ScrHvsE@ec2-54-221-235-135.compute-1.amazonaws.com:5432/d323kk8ffr81ad')
